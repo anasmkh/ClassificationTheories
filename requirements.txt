@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import pandas
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
