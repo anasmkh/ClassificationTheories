@@ -1,8 +1,6 @@
-from sklearn.svm import svc
-from sklearn.linear_model import logisticRegression
-from sklearn.ensemble import randomforestclassifier
-from sklearn.preprocessing import labelencoder
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import plot_confusion_matrix,plot_roc_curve,plot_precision_recall_curve, precision_score, recall_score
-import streamlit as st
-import pandas
+pandas<1.2.0
+xlrd<2.0
+streamlit==0.74.1
+plotly==4.14.3
+Pillow==8.1.2
+sklearn>1.0.1
